@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken');
-const config = require('../config/config'); //全局配置
+const config = require('../config/config'); 
 
 var UserSchema = new Schema({
     email: {
